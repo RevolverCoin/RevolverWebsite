@@ -1,0 +1,38 @@
+include header.html
+
+
+.content-padding
+    h1
+        strong XRE Community Hub on Slack
+
+    h2 Already invited?
+    a(href="https://revolvercoin.slack.com/" target="_blank" class="button" style="margin:0") Launch Slack
+
+    div(style="height:50px")
+
+    h2 Get an Invite to Join RevolverCoin Community on Slack!
+    h3 Enter your email
+
+    .information
+        form(method="POST", action="/invite")#join-form.form
+            input(type="email", name="email", placeholder="Enter Your Email Address", class="inputbox")#slack-email.field
+            if tokenRequired
+                input(type="text", name="token", placeholder="Enter the invite token you were given")#slack-token.field
+            input(type="submit", value="Join" class="button").submit
+
+script.
+    var tokenRequired = #{tokenRequired};
+    var form = document.getElementById('join-form');
+    var email = document.getElementById('slack-email');
+    var token = document.getElementById('slack-token');
+    form.addEventListener('submit', function(evt) {
+        if (!email.value) {
+            evt.preventDefault();
+        }
+        if (tokenRequired && !token.value) {
+            evt.preventDefault();
+        }
+    });
+
+
+include footer.html

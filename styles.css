@@ -1,0 +1,245 @@
+
+body {
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body .content{
+    margin: 30px auto 0;
+    width: 939px;
+    background: url("images/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+h1 {
+    color: #f40139;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 70px;
+    margin-top: 115px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.header {
+    color: #fff;
+    font-size: 12px;
+    padding: 0 45px 0 45px;
+}
+
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.header .delim{
+    margin-left: 16px;
+}
+
+.header a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .title {
+    font-size: 32px;
+    margin: 0 0 0 20px;
+    cursor: default;
+}
+
+.header .logo > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .menu {
+    float: right;
+    height: 60px;
+    padding-top:20px
+}
+
+.date {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-variant: small-caps;
+}
+
+.important-notice {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 80px;
+}
+
+.important-notice span {
+    color: #f40139;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.download-icons {
+    color: #383838;
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.download-icons:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+.download-icons > div {
+    display: inline-block;
+    text-align: center;
+}
+
+.download-icons p {
+    font-size: 14px;
+    margin: 5px
+}
+
+.download-icons .active {
+    color: #fff
+}
+
+.download-icons .fa-circle {
+    color: white;
+}
+
+.specification {
+
+}
+
+.specification > * {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.spec-icon {
+    color: #5a6b7d;
+    border-radius: 50%;
+    /* padding: 10px; */
+    border: 5px solid #5a6b7d;
+    font-size: 50px;
+    line-height: 73px;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-right: 65px;
+}
+
+.specification p {
+    color: #dddddd;
+    text-align: left;
+    font-size: 14px;
+}
+
+.resources {
+    color: #fff;
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.resources:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+.res-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.res-item>p {
+    font-size: 13px;
+    margin:4px;
+    color: #757575;
+}
+
+
+
+.res-item-icon p {
+    margin: 9px 0 0 0;
+    font-size: 14px;
+}
+
+.res-item-icon {
+    border: 1px solid #202020;
+    border-radius: 5px;
+    display: inline-block;
+    padding:15px 0 15px 0;
+    margin-bottom: 10px;
+    width: 85px;
+}
+
+.footer{
+    margin: 0 auto;
+    padding:15px 15px 65px 0;
+    width: 840px;
+    border-top: 1px solid #151515;
+    color:#757575;
+    font-size: 12px;
+    text-align: right;
+}
+
+.res-item-icon .fa{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+    margin: 0;
+    color:#757575;
+    font-size: 12px;
+}
+
+.footer p{
+    margin: 0;
+}

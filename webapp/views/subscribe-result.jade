@@ -1,0 +1,18 @@
+include header.html
+
+script.
+    var onClick = function () {
+        document.location.href = "/";
+    }
+
+
+.content-padding
+    h1
+        strong RevolverCoin Newsletter Subscribe
+    h3(class="#{isFailed ? 'error' : ''}") !{message}
+
+    button(class="button" onclick='onClick()' style='margin-left:0') Back
+
+include footer.html
+
+

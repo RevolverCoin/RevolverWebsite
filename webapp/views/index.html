@@ -1,0 +1,201 @@
+
+        <div class="main-feature-container">
+            <img src="images/band.jpg" width="554" height="378"/>
+            <div>
+                <p class="main-feature">When Creativity meets<br>
+                    Breakthrough Technology</p>
+
+                <p class="main-feature-desc">
+                    Revolver is a cryptocurrency network created for content service providers,
+                    independent music and video projects, startups and users working under Creative Commons license.
+                </p>
+            </div>
+
+
+        </div>
+
+        <a name="download"></a>
+        <h3 class="main">Download</h3>
+        <div class="download-icons">
+            <div>
+                <a class="download-link" href="https://github.com/RevolverCoin/revolvercoin/releases/tag/v1.0.0.0" target="_blank">
+                    <p class="active">Windows</p>
+
+                    <span class="fa-stack fa-lg fa-2x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-windows fa-stack-1x"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+            <div>
+                <a class="download-link" href="https://github.com/RevolverCoin/revolvercoin/releases/tag/v1.0.0.0" target="_blank">
+                    <p class="active">Linux</p>
+                    <span class="fa-stack fa-lg fa-2x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-linux fa-stack-1x"></i>
+                    </span>
+                </a>
+            </div>
+
+            <div>
+                <p>Mac OS</p>
+                <span class="fa-stack fa-lg fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-apple fa-stack-1x"></i>
+                </span>
+            </div>
+
+            <div>
+                <a class="download-link" href="https://github.com/RevolverCoin/revolvercoin" target="_blank">
+                    <p class="active">Open source</p>
+                    <span class="fa-stack fa-lg fa-2x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-github fa-stack-1x"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+
+        <div class="features">
+            <div class="feature">
+                <p class="feature-name">The internet currency</p>
+                <p class="feature-desc">
+                    RevolverCoin is a decentralized peer-to-peer digital currency that allows you to send and receive money online easily
+                </p>
+            </div>
+
+
+            <div class="feature">
+                <p class="feature-name">Reward platform</p>
+                <p class="feature-desc">
+                    An innovative reward solution provides a convenient way to get rewards and donations for your content on the web
+                </p>
+            </div>
+
+            <div class="feature">
+                <p class="feature-name">Decentralized and Independent</p>
+                <p class="feature-desc">
+                    The cutting-edge technology for independent artists from all over the world to be able to create and develop
+                </p>
+            </div>
+
+
+            <div class="feature">
+                <p class="feature-name">Community-driven solutions
+                <p/>
+                <p class="feature-desc">
+                    Open source community-driven projects under the hood. Open for contributions from other developers worldwide
+                </p>
+            </div>
+
+        </div>
+
+        <a name="community"></a>
+        <div class="links">
+
+            <h3 class="main">Community</h3>
+
+            <div class="community-links">
+                <div class="community-link">
+                    <a href="https://bitcointalk.org/index.php?topic=1479260.0" target="_blank">
+                        <img src="images/bct-logo.jpg" width="50"/>
+                        <p>Bitcointalk forums</p>
+                    </a>
+                </div>
+                <div class="community-link">
+                    <a href="http://platform.revolvercoin.org" target="_blank">
+                        <img src="images/platform-logo.jpg" width="45"/>
+                        <p>Revolver Platform</p>
+                    </a>
+                </div>
+
+                <div class="community-link">
+                    <a href="/slack-invite">
+                        <img src="images/slack-logo.jpg" width="48"/>
+                        <p>Slack Chat</p>
+                    </a>
+                </div>
+
+                <div class="community-link">
+                    <p class="newsletter-header">Newsletter</p>
+
+                    <form id="subscribe-form" method="POST" action="/subscribe">
+                        <input placeholder="email" class="inputbox" type="email" name="email" id="subscribe-email"/>
+                        <input type="submit" value="Subscribe!" class="button"/>
+                    </form>
+
+                </div>
+
+
+            </div>
+
+            <div class="twitter-block">
+                <a class="twitter-timeline"
+                   data-width="250"
+                   data-height="375"
+                   data-theme="dark"
+                   data-chrome="nofooter transparent"
+                   href="https://twitter.com/RevolverCoin">Tweets by RevolverCoin</a>
+            </div>
+
+            <script>
+                $(".twitter-block").hide();
+
+                // First, load the widgets.js file asynchronously
+                window.twttr = (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0],
+                            t = window.twttr || {};
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+
+                    t._e = [];
+                    t.ready = function(f) {
+                        t._e.push(f);
+                    };
+
+                    return t;
+                }(document, "script", "twitter-wjs"));
+
+
+                twttr.ready(function (twttr) {
+                    twttr.events.bind(
+                        'loaded',
+                        function (event) {
+                            $(".twitter-block").show();
+                        }
+                    );
+                });
+            </script>
+
+        </div>
+
+        <div class="footer-banner">
+            <div>
+                <div class="left">
+                    <p class="title">Revolver</p>
+                    <p class="subtitle">Distributed rewards for authors</p>
+                </div>
+                <div class="right">
+                    <p>An innovative reward and crowdfunding solution with experimental investment technology driven by decentralized [XRE] RevolverCoin cryptocurrency</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="partners">
+            <a href="http://altradar.info" target="_blank"><img src="images/alt-radar.jpg" width="340" height="85"/></a>
+            <a href="https://www.cryptopia.co.nz/" target="_blank"><img src="images/cryptopia.jpg" width="225" height="100"/></a>
+            <a href="https://www.cryptocompare.com/" target="_blank"><img src="images/cryptocompare.jpg" width="105" height="112"/></a>
+        </div>
+
+
+
+
