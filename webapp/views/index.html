@@ -145,8 +145,8 @@
             </div>
 
             <script>
-                $(".twitter-block").hide();
-
+                var twitterBlock = document.querySelector(".twitter-block");
+                twitterBlock.style.display = 'none';
                 // First, load the widgets.js file asynchronously
                 window.twttr = (function(d, s, id) {
                     var js, fjs = d.getElementsByTagName(s)[0],
@@ -170,7 +170,7 @@
                     twttr.events.bind(
                         'loaded',
                         function (event) {
-                            $(".twitter-block").show();
+                           twitterBlock.style.display = '';
                         }
                     );
                 });
