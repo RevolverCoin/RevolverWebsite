@@ -248,6 +248,16 @@ h3.main {
     font-variant: small-caps;
 }
 
+
+.download-icons div.coming-soon {
+    margin:-21px 0 7px; 
+    padding:0;
+    font-size: 12px;
+    font-variant: small-caps;
+
+}
+
+
 .download-icons .active {
     color: #fff
 }
@@ -310,6 +320,8 @@ h3.main {
     padding-bottom:20px;
 }
 
+
+
 .community-link>a>* {
     display: inline-block;
     vertical-align: middle;
@@ -345,6 +357,11 @@ h3.main {
     background-repeat: repeat-x;
     height: 8px;
 }
+
+.spacer {
+    margin-top: 50px;
+}
+
 
 .button {
     -webkit-border-radius: 10;
@@ -487,6 +504,39 @@ a.intext {
 .faq-content h3 {
     font-size: 20px;
 }
+
+.concept {
+    margin:50px 0;
+} 
+.concept .block {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px dashed #3d3d3d;
+    padding:20px;
+
+    
+}
+.concept .block .image {
+    display: inline-block;
+    width:20%;
+    text-align: center;
+}
+
+.concept .block .text {
+    display: inline-block;
+    width: 79%;
+    color: white;
+    vertical-align: top;
+    
+}
+
+.concept .block .text .block-header{
+        font-size:20px;
+        font-variant: small-caps;
+}
+
+
+
 
 @media (max-width: 1140px) {
     .container {
@@ -669,3 +719,4 @@ a.intext {
         height: auto;
     }
 }
+
