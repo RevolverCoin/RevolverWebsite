@@ -14,5 +14,12 @@ router.get('/faq', function(req, res, next) {
   res.render('faq');
 });
 
+router.get('/blog/reward-explained', function(req, res, next) {
+  res.render('reward-explained');
+});
+router.get('/blog', function(req, res, next) {
+  res.render('blog');
+});
+
 
 module.exports = router;
