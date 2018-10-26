@@ -1,0 +1,29 @@
+include header.html
+.content-padding
+    .blog-content     
+
+        h2 Revolver reward platform explained
+        img.particleImg(src="../images/blog/particles.jpg" alt="Particles" width="1040")
+        p   People following the development of the RevolverCoin hear the term “Reward platform” very often. As our first alpha release that utilizes custom-made blockchain emulator approaches to its completion, we want to start a series of short blog posts to spread awareness and educate people on what we are actually building and who will benefit from this. The first piece is a high level overview of a platform, its potential use cases and user types.
+
+        p    A very important thing to understand is that Revolver reward platform is NOT the same thing as RevolverCoin blockchain and its yet-to-be-released built-in capability of the decentralized reward distribution. Platform is what smart contract platform users (such as Ethereum) would call a dApp - one of many potential applications on top of the RevolverCoin blockchain. Another important thing to understand is that a RevolverCoin is a public permissionless ledger and thus can be viewed as a gateway (or API in technical terms) to a shared pool of rewards where everyone can propose their own rule of distributing portion of this reward.  To demonstrate, test and develop a decentralized reward distribution powered by RevolverCoin blockchain we are developing a twitter-like app - the Revolver reward platform . In many ways it is similar to a hypothetical ArtBook app from our original #[a(href="https://medium.com/@BarneyHill/decentralized-reward-platform-cae975b6a2d#.vl3wo2jcy") medium article ]. The App serves the following purposes:
+        ul
+            li Allows users to create and discover content 
+            li Allows to support and follow other users
+            li Allows content creators to accumulate rewards from supporters
+            li Acts as a web wallet for XRE
+
+        p There are following types of users in the app:
+
+        ul  
+            li  Supporter - a person who uses the app to browse content and shapes their timeline according to their area of interests by supporting\following other users. Just like many of us do on twitter
+            li  Content creator - a person who creates posts that other people can see
+            li  Generator - think of it as of a miner
+
+        p Let’s talk about support\follow concept more closely, as it is a central part of the approach we are proposing. This action is a blend of a classic “follow” as we know it ,on services like twitter, and donation to a blogger, favorite music band, author or any other person or group of persons whose work you admire and want them to continue doing it. The other similar thing is becoming a patron on Patreon.  One of the major differences between existing services like Patreon and Revolver is that by supporting a content creator that you like you don’t actually need to spend money. This encourages usage and should create a positive feedback loop between users and content creators. More supporters -> More content creators -> More content -> More users
+        p So the general idea is quite simple: content creators post content, other users “vote” for the best content creators by committing “support” action and thus providing a reward and motivation to the former. It’s also worth noting that any user can be both a “content creator” and a“supporter”.  The “support” action is long lasting, meaning that once you start supporting someone they will receive some reward effectively each block, until you decide to recall support for some reason. This way valuable content creators will receive a continuous stream of rewards, unlike regular “salaries” or donations that come at the discrete time. This concept of “streaming money” was very well discussed by #[a(href="https://www.youtube.com/watch?v=l235ydAx5oQ") Andreas M. Antonopoulos] and in our opinion as well has great benefits to it.        
+        p In the next article we will present a more detailed overview of how these actions are being performed in the actual app.
+
+        .date  26.10.2018
+
+include footer.html
