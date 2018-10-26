@@ -505,6 +505,30 @@ a.intext {
     font-size: 20px;
 }
 
+.blog-content{
+    color: white;
+    font-size: 20px;
+}
+
+.blog-content a {
+    font-style: italic;
+    color: #50ace4;
+}
+
+.blog-content  .blog-entry a {
+    color: white;
+    text-decoration: underline;
+}
+
+.blog-content .particleImg{
+    text-align: center;
+}
+
+.blog-content .date {
+    text-align: right;
+    font-size: 14px;
+}
+
 .concept {
     margin:50px 0;
 } 
